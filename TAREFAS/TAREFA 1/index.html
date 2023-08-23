@@ -6,25 +6,29 @@
 </head>
 
 <body>
+    <div id="nomeCervejaDiv"></div>
     <div id="botaoDiv">
-        <button id="botaoCarregar">Carregando cervejas...</button>
-    </div>
-    <div id="nomeCervejaDiv" style="display: none;">
-        <h1>Guinness</h1>
+        <button id="botaoCarregar" onclick="alternarNomeCerveja()">Carregando cervejas...</button>
     </div>
 </body>
 
 <script>
-    function carregarDiv() {
-        let botaoDiv = document.getElementById("botaoDiv");
+    let nomeCervejaExibido = false;
+
+    function alternarNomeCerveja() {
         let nomeCervejaDiv = document.getElementById("nomeCervejaDiv");
+        let botao = document.getElementById("botaoCarregar");
 
-        botaoDiv.style.display = "none"; // Oculta o botão
-        nomeCervejaDiv.style.display = "block"; // Exibe o nome da cerveja
+        if (nomeCervejaExibido) {
+            nomeCervejaDiv.innerHTML = ''; // Limpa o conteúdo do div
+            botao.textContent = "Carregando cervejas...";
+        } else {
+            nomeCervejaDiv.innerHTML = "<h1>Guinness</h1>"; // Exibe o nome da cerveja
+            botao.textContent = "Limpar Nome";
+        }
+
+        nomeCervejaExibido = !nomeCervejaExibido; // Inverte o estado do nome da cerveja
     }
-
-    let botao = document.getElementById("botaoCarregar");
-    botao.addEventListener("click", carregarDiv);
 </script>
 
 </html>
