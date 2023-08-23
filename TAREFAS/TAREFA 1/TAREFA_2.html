@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="nomeCervejaDiv"></div>
+    <div id="botaoDiv">
+        <button id="botaoCarregar" onclick="alternarNomeCerveja()">Carregando cervejas...</button>
+    </div>
+</body>
+
+<script>
+    let nomeCervejaExibido = false;
+
+    function alternarNomeCerveja() {
+        let nomeCervejaDiv = document.getElementById("nomeCervejaDiv");
+        let botao = document.getElementById("botaoCarregar");
+
+        if (nomeCervejaExibido) {
+            nomeCervejaDiv.innerHTML = ''; // Limpa o conteúdo do div
+            botao.textContent = "Carregando cervejas...";
+        } else {
+            nomeCervejaDiv.innerHTML = "<h1>Guinness</h1>"; // Exibe o nome da cerveja
+            botao.textContent = "Limpar Nome";
+        }
+
+        nomeCervejaExibido = !nomeCervejaExibido; // Inverte o estado do nome da cerveja
+    }
+</script>
+
+</html>
