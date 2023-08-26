@@ -1,0 +1,18 @@
+p.verso {
+    color: blue;
+}
+
+p.mote {
+    color: red;
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: purple; /* Defina a cor desejada para links visitados */
+}
+
+/* Estilo para links quando o mouse está sobre eles */
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o mouse está sobre o link */
+    color: green; /* Defina a cor desejada para links quando o mouse está sobre eles */
+}
