@@ -6,9 +6,9 @@
     <style>
         /* Estilos para a tabela */
         table {
-            width: 50%;
+            width: 45%; /* Ajuste o tamanho das tabelas conforme necessário */
             border-collapse: collapse;
-            margin: 20px auto;
+            margin: 10px;
         }
 
         th, td {
@@ -20,7 +20,7 @@
         th {
             background-color: #f2f2f2;
         }
-
+        
         /* Estilos para as células da primeira coluna (Bebida) */
         .bebida {
             background-color: #f7f7f7;
@@ -31,6 +31,12 @@
         .preco {
             background-color: #f9f9f9;
             text-align: right;
+        }
+
+        /* Estilos para a div contêiner */
+        .tabela-container {
+            display: flex;
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -48,24 +54,37 @@
         Autor: Francisco Borges
     </p>
 
-    <!-- Tabela com bebidas e preços -->
-    <table>
-        <tr>
-            <th class="bebida">Bebida</th>
-            <th class="preco">Preço</th>
-        </tr>
-        <tr>
-            <td class="bebida">Cerveja</td>
-            <td class="preco">R$ 5,00</td>
-        </tr>
-        <tr>
-            <td class="bebida">Vinho</td>
-            <td class="preco">R$ 20,00</td>
-        </tr>
-        <tr>
-            <td class="bebida">Coquetel</td>
-            <td class="preco">R$ 10,00</td>
-        </tr>
-    </table>
+    <!-- Div contêiner para as tabelas lado a lado -->
+    <div class="tabela-container">
+        <table>
+            <tr>
+                <th class="bebida">Bebida</th>
+                <th class="preco">Preço</th>
+            </tr>
+            <tr>
+                <td class="bebida">Cerveja</td>
+                <td class="preco">R$ 5,00</td>
+            </tr>
+            <tr>
+                <td class="bebida">Vinho</td>
+                <td class="preco">R$ 20,00</td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <th class="bebida">Bebida</th>
+                <th class="preco">Preço</th>
+            </tr>
+            <tr>
+                <td class="bebida">Coquetel</td>
+                <td class="preco">R$ 10,00</td>
+            </tr>
+            <tr>
+                <td class="bebida">Refri</td>
+                <td class="preco">R$ 3,00</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
