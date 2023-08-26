@@ -31,3 +31,11 @@ div.poeta img {
     height: 100px; /* Ajuste a altura da imagem conforme necessário */
     margin-right: 10px; /* Espaçamento à direita do texto */
 }
+
+th {
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    color: black; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
