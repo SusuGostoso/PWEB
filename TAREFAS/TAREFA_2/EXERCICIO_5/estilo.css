@@ -1,0 +1,26 @@
+p.verso {
+    color: blue;
+}
+
+p.mote {
+    color: red;
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: purple; /* Defina a cor desejada para links visitados */
+}
+
+/* Estilo para links quando o mouse está sobre eles */
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o mouse está sobre o link */
+    color: green; /* Defina a cor desejada para links quando o mouse está sobre eles */
+}
+
+/* Estilo para a imagem avatar */
+.avatar {
+    border-radius: 50%; /* Cria uma borda arredondada */
+    width: 100px; /* Ajuste a largura da imagem conforme necessário */
+    height: 100px; /* Ajuste a altura da imagem conforme necessário */
+    margin-right: 10px; /* Espaçamento à direita do texto */
+}
