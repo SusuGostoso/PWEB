@@ -3,6 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>SUSU TESÃO</title>
+    <style>
+        /* Estilos para a tabela */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Estilos para as células da primeira coluna (Bebida) */
+        .bebida {
+            background-color: #f7f7f7;
+            font-weight: bold;
+        }
+
+        /* Estilos para as células da segunda coluna (Preço) */
+        .preco {
+            background-color: #f9f9f9;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <img src="https://akamai.sscdn.co/uploadfile/letras/playlists/3/a/b/9/3ab92363f7974d679f4194de9f389b5b.jpg" width="200"/>
@@ -21,20 +51,20 @@
     <!-- Tabela com bebidas e preços -->
     <table>
         <tr>
-            <th>Bebida</th>
-            <th>Preço</th>
+            <th class="bebida">Bebida</th>
+            <th class="preco">Preço</th>
         </tr>
         <tr>
-            <td>Cerveja</td>
-            <td>R$ 5,00</td>
+            <td class="bebida">Cerveja</td>
+            <td class="preco">R$ 5,00</td>
         </tr>
         <tr>
-            <td>Vinho</td>
-            <td>R$ 20,00</td>
+            <td class="bebida">Vinho</td>
+            <td class="preco">R$ 20,00</td>
         </tr>
         <tr>
-            <td>Coquetel</td>
-            <td>R$ 10,00</td>
+            <td class="bebida">Coquetel</td>
+            <td class="preco">R$ 10,00</td>
         </tr>
     </table>
 </body>
