@@ -8,3 +8,12 @@
 - [Exercício 1/3](https://github.com/SusuGostoso/PWEB/commit/def1509bb80c7ac1012f2fd879bb336d5a1e32db) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA%201/TAREFA_1.html)
 - [Exercício 2/3](https://github.com/SusuGostoso/PWEB/commit/221a1d2f28432dbce81044dce2252976916c6c8f) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA%201/TAREFA_2.html)
 - [Exercício 3/3](https://github.com/SusuGostoso/PWEB/commit/740ed3d0dcbe4d1661c475204ae3a33384b386a3) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA%201/TAREFA_3.html)
+
+## Tarefa :two: :heavy_check_mark:
+> Passos: [1](https://github.com/SusuGostoso/PWEB/commit/8dff4c8a12f7134acdcbddc638a33764f373c54b), [2](https://github.com/SusuGostoso/PWEB/commit/23e75f66f96f05802331b72e04b9a6b521c6ba22), [3](https://github.com/SusuGostoso/PWEB/commit/7188bd5dd175569182044c84a89c90dd64b962e1)
+
+- [Exercício 1/5](https://github.com/SusuGostoso/PWEB/commit/45d5d375a1030981fbd98dfe008b867f23445d26) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_1.html)
+- [Exercício 2/5]() | [:file_folder:]()
+- [Exercício 3/5]() | [:file_folder:]()
+- [Exercício 4/5]() | [:file_folder:]()
+- [Exercício 5/5]() | [:file_folder:]()
