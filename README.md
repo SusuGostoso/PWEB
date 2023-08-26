@@ -13,7 +13,7 @@
 > Passos: [1](https://github.com/SusuGostoso/PWEB/commit/8dff4c8a12f7134acdcbddc638a33764f373c54b), [2](https://github.com/SusuGostoso/PWEB/commit/23e75f66f96f05802331b72e04b9a6b521c6ba22), [3](https://github.com/SusuGostoso/PWEB/commit/7188bd5dd175569182044c84a89c90dd64b962e1)
 
 - [Exercício 1/5](https://github.com/SusuGostoso/PWEB/commit/45d5d375a1030981fbd98dfe008b867f23445d26) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_1.html)
-- [Exercício 2/5]() | [:file_folder:]()
-- [Exercício 3/5]() | [:file_folder:]()
-- [Exercício 4/5]() | [:file_folder:]()
-- [Exercício 5/5]() | [:file_folder:]()
+- [Exercício 2/5](https://github.com/SusuGostoso/PWEB/commit/654045b542aafbea326a534a48d6dd1ff3a1c8ae) | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_2.html)
+- [Exercício 3/5]() | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_3.html)
+- [Exercício 4/5]() | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_4.html)
+- [Exercício 5/5]() | [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_5.html)
