@@ -10,7 +10,7 @@
 
 ## Tarefa :two: :heavy_check_mark:
 > html com cascade style sheets, ou css
-- Passos: [1](), [2](), [3](), [4](), [5](), [6]()
+- Passos: [1](https://github.com/SusuGostoso/PWEB/commit/565c59bfa3f3541eb4cced6fee5744be40c17f9c), [2](https://github.com/SusuGostoso/PWEB/commit/28ed28e00d5c45494754c729518f99703149d79b), [3](https://github.com/SusuGostoso/PWEB/commit/8af95e2287f26ce309ec8e8a7c4bf770dae9887d), [4](https://github.com/SusuGostoso/PWEB/commit/2d46f07b330a97854901ed691f9918bee1c363e3), [5](https://github.com/SusuGostoso/PWEB/commit/0b1374900c4f2bbbc9504f33462b314236dd07d5), [6](https://github.com/SusuGostoso/PWEB/commit/dffb1a54c70f774a97fd90de81700d27dbf2a7bb)
 - Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_4.html) | [:five:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_5.html) | [:six:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_6.html)  | [:seven:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_2/EXERCICIO_7.html)
 
 ## Tarefa :three: :heavy_check_mark:
