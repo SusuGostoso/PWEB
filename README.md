@@ -5,7 +5,7 @@
 
 ## Tarefa :one: :heavy_check_mark:
 > html básico do básico do básico
-- Passos: [1](), [2](), [3](), [4](), [5]()
+- Passos: [1](https://github.com/SusuGostoso/PWEB/commit/260636bac16f880e5d60774c113bc97b9d32152e), [2](https://github.com/SusuGostoso/PWEB/commit/f78a5b9756ecc9ba3f2383cedf4e39267da8e490), [3](https://github.com/SusuGostoso/PWEB/commit/0bf4a7d54b12dfc403da00e354a39dc3860006ac), [4](https://github.com/SusuGostoso/PWEB/commit/f932950d9643755d94b34ad307fe4c366e8f15e1), [5](https://github.com/SusuGostoso/PWEB/commit/864f17081ae4058c95914e73d1cdadbc4433eb06)
 - Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_4.html) | [:five:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_5.html) | [:six:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_1/EXERCICIO_6.html)
 
 ## Tarefa :two: :heavy_check_mark:
