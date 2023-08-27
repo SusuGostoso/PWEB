@@ -28,19 +28,25 @@
 
          {
 
-            name: "Guiness",             
+            name: "Guiness", 
+
+            alcohol: "10%"            
 
          }, 
 
          {
 
-            name: "Desperados",             
+            name: "Desperados",
+
+            alcohol: "6%"             
 
          }, 
 
          {
 
-            name: "Becks",             
+            name: "Becks",
+
+            alcohol: "5%"             
 
          }
 
@@ -54,7 +60,7 @@
 
          const div = document.getElementById("cervejasDiv")
 
-         const itensHtml = cs.map( item => `<div>${item.name}</div>` ) 
+         const itensHtml = cs.map( item => `<div>${item.name} -- ${item.alcohol}</div>` ) 
 
          div.innerHTML = `${itensHtml.join("\n")}`
 
