@@ -37,8 +37,8 @@
 
 ## Tarefa :seven: :x:
 > Mais Objetos JSON
-- Passos: [1](), [2](), [3](), [4](), [5](), [6]()
-- Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_4.html)
+- Passos: [1](https://github.com/SusuGostoso/PWEB/commit/94ca036b8ed6886110f83eb7685fe159ad2f9570), [2](https://github.com/SusuGostoso/PWEB/commit/18128e91779875b58d75971961aa1325224f80b2), [3](https://github.com/SusuGostoso/PWEB/commit/a8d4cf825112084ce41b46f591ad74c5167d3b56), [4](https://github.com/SusuGostoso/PWEB/commit/7adf7366315d2dc01a21f71e505f972b7c6936d0), [5](https://github.com/SusuGostoso/PWEB/commit/e7bc38956d2f97143079190133a190a04871c564), [6](https://github.com/SusuGostoso/PWEB/commit/665e78145eebd3e7db18c2b814420ab7d844fb89)
+- Exercicios: [:one:](https://github.com/SusuGostoso/PWEB/commit/012faf1b07139f93ac8cf9d453969375cd2470b5) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_1.html) | [:two:](https://github.com/SusuGostoso/PWEB/commit/81f20aeef64c264fe3c57fe35f7331cd3c2aee79) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_4.html)
 
 ## Tarefa :eight: :x:
 > Função fetch()
