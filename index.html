@@ -44,11 +44,19 @@
 
       async function carregarCervejas(){
 
-         let res = await fetch("https://random-data-api.com/api/v2/beers?size=3")
+         try{
 
-         cervejas = await res.json()
+            let res = await fetch("https://random-data-ai.com/api/v2/beers?size=3")
 
-         carregarDiv(cervejas)
+            cervejas = await res.json()
+
+            carregarDiv(cervejas)
+
+         }catch(err){
+
+            document.getElementById("cervejasDiv").innerHTML = "Fudeu..."
+
+         }
 
       }
 
