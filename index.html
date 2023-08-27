@@ -60,7 +60,7 @@
 
          const div = document.getElementById("cervejasDiv")
 
-         const itensHtml = cs.map( ({name,alcohol}) => `<div>${name} -- ${alcohol}</div>` ) 
+         const itensHtml = cs.map( item => `<div>${item['name']} -- ${item['alcohol']}</div>` ) 
 
          div.innerHTML = `${itensHtml.join("\n")}`
 
