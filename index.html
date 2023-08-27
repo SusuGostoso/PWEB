@@ -71,10 +71,27 @@
                álcool: "5%",
                estilo: "Lager",
                ibu: "30"
+            },
+            {
+               beerName: "Corona",
+               alcoholContent: "4.5%",
+               beerStyle: "Pale Lager",
+               bitterness: "20"
             }
          ]
 
-         const cabecalhoNomes = ["Nome", "Álcool", "Estilo", "IBU"];
+         // Função para extrair todas as chaves dos objetos
+         function extractKeys(data) {
+            const keys = new Set();
+            data.forEach(item => {
+               Object.keys(item).forEach(key => {
+                  keys.add(key);
+               });
+            });
+            return Array.from(keys);
+         }
+
+         const cabecalhoNomes = extractKeys(cervejas);
 
          const carregarTabela = (cs, elementoId = "cervejasDiv") => {
             const tableBody = document.getElementById("cervejasBody");
@@ -95,7 +112,7 @@
                const row = tableBody.insertRow();
                cabecalhoNomes.forEach(nome => {
                   const cell = row.insertCell();
-                  cell.textContent = item[nome.toLowerCase()] || "";
+                  cell.textContent = item[nome] || "";
                });
             });
 
