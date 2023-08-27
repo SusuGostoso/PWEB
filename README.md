@@ -25,10 +25,10 @@
 - Passos: [1](https://github.com/SusuGostoso/PWEB/commit/8dff4c8a12f7134acdcbddc638a33764f373c54b), [2](https://github.com/SusuGostoso/PWEB/commit/23e75f66f96f05802331b72e04b9a6b521c6ba22), [3](https://github.com/SusuGostoso/PWEB/commit/7188bd5dd175569182044c84a89c90dd64b962e1)
 - Exercicios: [:one:](https://github.com/SusuGostoso/PWEB/commit/45d5d375a1030981fbd98dfe008b867f23445d26) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_4/EXERCICIO_1.html) | [:two:](https://github.com/SusuGostoso/PWEB/commit/654045b542aafbea326a534a48d6dd1ff3a1c8ae) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_4/EXERCICIO_2.html) | [:three:](https://github.com/SusuGostoso/PWEB/commit/1402cf1bb175863d7ccf19489f4b06c98a07ace4) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_4/EXERCICIO_3.html) | [:four:](https://github.com/SusuGostoso/PWEB/commit/f65dd7e9bc37abcc8943037411f85bcce098215d) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_4/EXERCICIO_4.html) | [:five:](https://github.com/SusuGostoso/PWEB/commit/18ec5043221c25297cbc63a8ccce94f9db6a715a) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_4/EXERCICIO_5.html)
 
-## Tarefa :five: :x:
+## Tarefa :five: :heavy_check_mark:
 > Arrow functions, callback functions e constantes
-- Passos: [1](), [2](), [3](), [4]()
-- Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_3.html)
+- Passos: [1](https://github.com/SusuGostoso/PWEB/commit/1cc59c1a09966d3ff50a050c9efe4815ba185b45), [2](https://github.com/SusuGostoso/PWEB/commit/c94ba997d323e46665d5ca5026d2e9ec1ef3378a), [3](https://github.com/SusuGostoso/PWEB/commit/125c86391b2e6f7d7eb36df2192f485a0bc5532f), [4](https://github.com/SusuGostoso/PWEB/commit/b8b18a84029f81a601fe160b16415566c0c7b234)
+- Exercicios: [:one:](https://github.com/SusuGostoso/PWEB/commit/9b85d5f37211173e41c93b80f76abbc0042a09c0) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_1.html) | [:two:](https://github.com/SusuGostoso/PWEB/commit/10e40b908b3ca4499768448494513ec86ccd6960) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_2e3.html) | [:three:](https://github.com/SusuGostoso/PWEB/commit/10e40b908b3ca4499768448494513ec86ccd6960) [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_2e3.html)
 
 ## Tarefa :six: :x:
 > Objetos JSON

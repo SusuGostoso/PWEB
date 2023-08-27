@@ -1,39 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-    <a href="#" id="linkCarregar">Carregar frutas</a>
-    <a href="#" id="linkLimpar">Limpar</a>
-    <div id="meu_amor"></div>
 
-    <script>
-        let frutas = ["Maçã", "Banana", "Morango"];
+<html>   
 
-        const carregarDiv = (frts) => {
-            const div = document.getElementById("meu_amor");
-            const frutasHtml = frts.map(item => `<h1>${item}</h1>`);
-            div.innerHTML = `${frutasHtml.join("\n")}`;
-        }
+   <head>
 
-        const limparDiv = () => {
-            const div = document.getElementById("meu_amor");
-            div.innerHTML = '';
-        }
+      <meta charset="UTF-8">      
 
-        let linkCarregar = document.getElementById("linkCarregar");
-        let linkLimpar = document.getElementById("linkLimpar");
+   </head>
 
-        linkCarregar.addEventListener("click", (event) => {
-            event.preventDefault(); // Evita a navegação padrão do link
-            carregarDiv(frutas);
-        });
 
-        linkLimpar.addEventListener("click", (event) => {
-            event.preventDefault(); // Evita a navegação padrão do link
-            limparDiv();
-        });
-    </script>
-</body>
+
+   <body>
+
+      <div><button id="botaoCarregar">Carregando cervejas...</button></div>
+
+      <div id="cervejasDiv"></div>            
+
+   </body>   
+
+   
+
+   <script>
+
+
+
+      let cervejas = ["Guiness", "Desperados", "Becks"]
+
+    
+
+      //cs é um array de cervejas
+
+      const carregarDiv = cs => {
+
+         const div = document.getElementById("cervejasDiv")
+
+         const itensHtml = cs.map( item => `<div>${item}</div>` ) 
+
+         div.innerHTML = `${itensHtml.join("\n")}`
+
+      }
+
+
+
+      let botao = document.getElementById("botaoCarregar")
+
+      botao.addEventListener("click", () => carregarDiv(cervejas) )                 
+
+
+
+   </script>
+
 </html>

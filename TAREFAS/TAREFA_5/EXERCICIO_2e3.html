@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <a href="#" id="linkCarregar">Carregar frutas</a>
+    <a href="#" id="linkLimpar">Limpar</a>
+    <div id="meu_amor"></div>
+
+    <script>
+        let frutas = ["Maçã", "Banana", "Morango"];
+
+        const carregarDiv = (frts) => {
+            const div = document.getElementById("meu_amor");
+            const frutasHtml = frts.map(item => `<h1>${item}</h1>`);
+            div.innerHTML = `${frutasHtml.join("\n")}`;
+        }
+
+        const limparDiv = () => {
+            const div = document.getElementById("meu_amor");
+            div.innerHTML = '';
+        }
+
+        let linkCarregar = document.getElementById("linkCarregar");
+        let linkLimpar = document.getElementById("linkLimpar");
+
+        linkCarregar.addEventListener("click", (event) => {
+            event.preventDefault(); // Evita a navegação padrão do link
+            carregarDiv(frutas);
+        });
+
+        linkLimpar.addEventListener("click", (event) => {
+            event.preventDefault(); // Evita a navegação padrão do link
+            limparDiv();
+        });
+    </script>
+</body>
+</html>
