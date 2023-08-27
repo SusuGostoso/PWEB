@@ -2,32 +2,54 @@
 
 <html>   
 
+   <head>
+
+      <meta charset="UTF-8">      
+
+   </head>
+
+   
+
    <body>
 
-      <p style="color:blue;">Já não tenho meus dentes natuarais</p>
+      <div><button id="botaoCarregar">Carregando cervejas...</button></div>
 
-      <p style="color:blue;">Que comi rapadura com biscoito</p>
-
-      <p style="color:blue;">Cadê minha pressão 12 por 8</p>
-
-      <p style="color:blue;">Que no peito não tá batendo mais</p>
-
-      <p style="color:blue;">Dou um passo pra frente e dois pra trás</p>
-
-      <p style="color:blue;">E assim mesmo com pouca habilidade</p>
-
-      <p style="color:blue;">Que as feridas deixadas pela idade</p>
-
-      <p style="color:blue;">Não se curam com pano de compressa</p>
-
-      <p style="color:blue;">Vi a vida passando tão depressa</p>
-
-      <p style="color:blue;">Que nem lembro que tive mocidade</p>
-
-      <br/>
-
-      <p>João Paraibano</p>
+      <div id="meu amor"></div>            
 
    </body>   
+
+   
+
+   <script>
+
+      let cervejas = ["Guiness", "Desperados", "Becks"]
+
+      
+
+      function transformar(item){
+
+         return `<h1>${item}</h1>`
+
+      }
+
+      
+
+      function carregarDiv(){
+
+         let div = document.getElementById("meu amor")
+
+         let cervejasHtml = cervejas.map(transformar) 
+
+         div.innerHTML = `${cervejasHtml.join("\n")}`
+
+      }
+
+      
+
+      let botao = document.getElementById("botaoCarregar")
+
+      botao.addEventListener("click", carregarDiv)                 
+
+   </script>
 
 </html>

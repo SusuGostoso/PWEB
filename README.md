@@ -29,3 +29,13 @@
 > Arrow functions, callback functions e constantes
 - Passos: [1](), [2](), [3](), [4]()
 - Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_5/EXERCICIO_3.html)
+
+## Tarefa :six: :x:
+> Objetos JSON
+- Passos: [1](), [2](), [3](), [4](), [5](), [6]()
+- Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_4.html) | [:five:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_5.html) | [:six:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_6/EXERCICIO_6.html)
+
+## Tarefa :seven: :x:
+> Mais Objetos JSON
+- Passos: [1](), [2](), [3](), [4](), [5](), [6]()
+- Exercicios: [:one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_1.html) | [:two:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_2.html) | [:three:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_3.html) | [:four:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_7/EXERCICIO_4.html)
