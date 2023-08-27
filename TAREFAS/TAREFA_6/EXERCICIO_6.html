@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <style>
+         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+         }
+
+         button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+         }
+
+         table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+         }
+
+         th, td {
+            padding: 10px;
+            text-align: center;
+         }
+
+         th {
+            background-color: #007BFF;
+            color: #fff;
+         }
+
+         tr:nth-child(even) {
+            background-color: #f2f2f2;
+         }
+
+         tr:hover {
+            background-color: #ccc;
+         }
+      </style>
+   </head>
+   <body>
+      <button id="botaoCarregar">Carregando cervejas...</button>
+      <table id="cervejasTable">
+         <thead>
+            <tr id="cabecalho">
+            </tr>
+         </thead>
+         <tbody id="cervejasBody">
+         </tbody>
+      </table>
+      <script>
+         let cervejas = [
+            {
+               nome: "Guiness",
+               álcool: "10%",
+               estilo: "Imperial Stout",
+               ibu: "40"
+            },
+            {
+               nome: "Desperados",
+               álcool: "6%",
+               estilo: "Cream Ale",
+               ibu: "25"
+            },
+            {
+               nome: "Becks",
+               álcool: "5%",
+               estilo: "Lager",
+               ibu: "30"
+            },
+            {
+               beerName: "Corona",
+               alcoholContent: "4.5%",
+               beerStyle: "Pale Lager",
+               bitterness: "20"
+            }
+         ]
+
+         // Função para extrair todas as chaves dos objetos
+         function extractKeys(data) {
+            const keys = new Set();
+            data.forEach(item => {
+               Object.keys(item).forEach(key => {
+                  keys.add(key);
+               });
+            });
+            return Array.from(keys);
+         }
+
+         const cabecalhoNomes = extractKeys(cervejas);
+
+         const carregarTabela = (cs, elementoId = "cervejasDiv") => {
+            const tableBody = document.getElementById("cervejasBody");
+            const cabecalhoRow = document.getElementById("cabecalho");
+
+            // Limpa o corpo da tabela e o cabeçalho
+            tableBody.innerHTML = "";
+            cabecalhoRow.innerHTML = "";
+
+            // Cria as células do cabeçalho com os nomes dinâmicos
+            cabecalhoNomes.forEach(nome => {
+               const th = document.createElement("th");
+               th.textContent = nome;
+               cabecalhoRow.appendChild(th);
+            });
+
+            cs.forEach(item => {
+               const row = tableBody.insertRow();
+               cabecalhoNomes.forEach(nome => {
+                  const cell = row.insertCell();
+                  cell.textContent = item[nome] || "";
+               });
+            });
+
+            // Carrega o resultado no elemento especificado pelo elementoId
+            const elemento = document.getElementById(elementoId);
+            if (elemento) {
+               elemento.innerHTML = "";
+               elemento.appendChild(tableBody);
+            }
+         }
+
+         let botao = document.getElementById("botaoCarregar");
+
+         botao.addEventListener("click", () => carregarTabela(cervejas));
+      </script>
+   </body>
+</html>
