@@ -46,7 +46,11 @@
       <button id="botaoCarregar">Carregando cervejas...</button>
       <table id="cervejasTable">
          <thead>
-            <tr id="cabecalho">
+            <tr>
+               <th>Nome</th>
+               <th>Álcool</th>
+               <th>Estilo</th>
+               <th>IBU</th>
             </tr>
          </thead>
          <tbody id="cervejasBody">
@@ -55,48 +59,42 @@
       <script>
          let cervejas = [
             {
-               nome: "Guiness",
-               álcool: "10%",
-               estilo: "Imperial Stout",
+               name: "Guiness",
+               alcohol: "10%",
+               style: "Imperial Stout",
                ibu: "40"
             },
             {
-               nome: "Desperados",
-               álcool: "6%",
-               estilo: "Cream Ale",
+               name: "Desperados",
+               alcohol: "6%",
+               style: "Cream Ale",
                ibu: "25"
             },
             {
-               nome: "Becks",
-               álcool: "5%",
-               estilo: "Lager",
+               name: "Becks",
+               alcohol: "5%",
+               style: "Lager",
                ibu: "30"
             }
          ]
 
-         const cabecalhoNomes = ["Nome", "Álcool", "Estilo", "IBU"];
-
          const carregarTabela = (cs, elementoId = "cervejasDiv") => {
             const tableBody = document.getElementById("cervejasBody");
-            const cabecalhoRow = document.getElementById("cabecalho");
 
-            // Limpa o corpo da tabela e o cabeçalho
+            // Limpa o corpo da tabela
             tableBody.innerHTML = "";
-            cabecalhoRow.innerHTML = "";
-
-            // Cria as células do cabeçalho com os nomes dinâmicos
-            cabecalhoNomes.forEach(nome => {
-               const th = document.createElement("th");
-               th.textContent = nome;
-               cabecalhoRow.appendChild(th);
-            });
 
             cs.forEach(item => {
                const row = tableBody.insertRow();
-               cabecalhoNomes.forEach(nome => {
-                  const cell = row.insertCell();
-                  cell.textContent = item[nome.toLowerCase()] || "";
-               });
+               const nomeCell = row.insertCell(0);
+               const alcoolCell = row.insertCell(1);
+               const estiloCell = row.insertCell(2);
+               const ibuCell = row.insertCell(3);
+
+               nomeCell.textContent = item.name;
+               alcoolCell.textContent = item.alcohol;
+               estiloCell.textContent = item.style;
+               ibuCell.textContent = item.ibu;
             });
 
             // Carrega o resultado no elemento especificado pelo elementoId
