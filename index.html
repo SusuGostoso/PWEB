@@ -36,9 +36,9 @@
 
       function carregarDiv(){
 
-         let div = document.getElementById("meu amor")
+         const div = document.getElementById("meu amor")
 
-         let cervejasHtml = cervejas.map(transformar) 
+         const cervejasHtml = cervejas.map(transformar) 
 
          div.innerHTML = `${cervejasHtml.join("\n")}`
 
