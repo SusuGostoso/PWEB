@@ -26,21 +26,13 @@
 
       
 
-      function transformar(item){
-
-         return `<h1>${item}</h1>`
-
-      }
-
-      
-
       //function carregar(){      
 
       const carregarDiv = () => {
 
          const div = document.getElementById("meu amor")
 
-         const cervejasHtml = cervejas.map(transformar) 
+         const cervejasHtml = cervejas.map( item => `<h1>${item}</h1>` ) 
 
          div.innerHTML = `${cervejasHtml.join("\n")}`
 
