@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <div><button id="botaoCarregar">Carregando cervejas...</button></div>
+    <a href="#" id="linkCarregar">Carregar frutas</a>
+    <a href="#" id="linkLimpar">Limpar</a>
     <div id="meu_amor"></div>
 
     <script>
-        let cervejas = ["Guiness", "Desperados", "Becks"];
+        let frutas = ["Maçã", "Banana", "Morango"];
 
-        const carregarDiv = (cervs) => {
+        const carregarDiv = (frts) => {
             const div = document.getElementById("meu_amor");
-            const cervejasHtml = cervs.map(item => `<h1>${item}</h1>`);
-            div.innerHTML = `${cervejasHtml.join("\n")}`;
+            const frutasHtml = frts.map(item => `<h1>${item}</h1>`);
+            div.innerHTML = `${frutasHtml.join("\n")}`;
         }
 
-        let botao = document.getElementById("botaoCarregar");
+        const limparDiv = () => {
+            const div = document.getElementById("meu_amor");
+            div.innerHTML = '';
+        }
 
-        botao.addEventListener("click", () => {
-            carregarDiv(cervejas);
+        let linkCarregar = document.getElementById("linkCarregar");
+        let linkLimpar = document.getElementById("linkLimpar");
+
+        linkCarregar.addEventListener("click", (event) => {
+            event.preventDefault(); // Evita a navegação padrão do link
+            carregarDiv(frutas);
+        });
+
+        linkLimpar.addEventListener("click", (event) => {
+            event.preventDefault(); // Evita a navegação padrão do link
+            limparDiv();
         });
     </script>
 </body>
