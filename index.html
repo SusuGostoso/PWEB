@@ -78,7 +78,7 @@
             }
          ]
 
-         const carregarTabela = cs => {
+         const carregarTabela = (cs, elementoId = "cervejasDiv") => {
             const tableBody = document.getElementById("cervejasBody");
 
             // Limpa o corpo da tabela
@@ -96,6 +96,13 @@
                estiloCell.textContent = item.style;
                ibuCell.textContent = item.ibu;
             });
+
+            // Carrega o resultado no elemento especificado pelo elementoId
+            const elemento = document.getElementById(elementoId);
+            if (elemento) {
+               elemento.innerHTML = "";
+               elemento.appendChild(tableBody);
+            }
          }
 
          let botao = document.getElementById("botaoCarregar");
