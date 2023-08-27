@@ -24,37 +24,9 @@
 
 
 
-      let cervejas = [
+      let cervejas = []
 
-         {
-
-            name: "Founders Breakfast Stout", 
-
-            alcohol: "7.6%"            
-
-         }, 
-
-         {
-
-            name: "Celebrator Doppelbock",
-
-            alcohol: "3.1%"             
-
-         }, 
-
-         {
-
-            name: "Dreadnaught",
-
-            alcohol: "6.1%"             
-
-         }
-
-      ]
-
-
-
-    
+      
 
       //cs é um array de cervejas
 
@@ -68,13 +40,27 @@
 
       }
 
+      
+
+      async function carregarCervejas(){
+
+         let res = await fetch("https://random-data-api.com/api/v2/beers?size=3")
+
+         cervejas = await res.json()
+
+         carregarDiv(cervejas)
+
+      }
+
+      
+
 
 
       let botao = document.getElementById("botaoCarregar")
 
-      botao.addEventListener("click", () => carregarDiv(cervejas) )                 
+      botao.addEventListener("click", () => carregarCervejas() )                 
 
-
+      
 
    </script>
 
