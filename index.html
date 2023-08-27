@@ -28,37 +28,19 @@
 
          {
 
-            name: "Guiness", 
-
-            toString: function(){
-
-               return this.name
-
-            }
+            name: "Guiness",             
 
          }, 
 
          {
 
-            name: "Desperados", 
-
-            toString: function(){
-
-               return this.name
-
-            }
+            name: "Desperados",             
 
          }, 
 
          {
 
-            name: "Becks", 
-
-            toString: function(){
-
-               return this.name
-
-            }
+            name: "Becks",             
 
          }
 
@@ -72,7 +54,7 @@
 
          const div = document.getElementById("cervejasDiv")
 
-         const itensHtml = cs.map( item => `<div>${item}</div>` ) 
+         const itensHtml = cs.map( item => `<div>${item.name}</div>` ) 
 
          div.innerHTML = `${itensHtml.join("\n")}`
 
