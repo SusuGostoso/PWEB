@@ -39,7 +39,7 @@
 
 ## Tarefa :eight: :x:
 > Introdução ao React
-- Passos: [1](), [2](), [3](), [4](), [5](), [6](), [7](), [8](), [9](), [10]()
+- Passos: [1 e 2](https://github.com/SusuGostoso/PWEB/commit/ef6c226f8b5ef8c06ba1fed8a6bfcc900f5a2089) [3](https://github.com/SusuGostoso/PWEB/commit/3ed44cef81ffb652ec906b8eaced85cc9649c5e2), [4](https://github.com/SusuGostoso/PWEB/commit/ea5f8837d9fed2cabb043816f994a1538bfa1fcc), [5](https://github.com/SusuGostoso/PWEB/commit/7d57a4e8e0c1083fc3ab0ec487c915d534c69604), [6](https://github.com/SusuGostoso/PWEB/commit/e8d6980a70b117ca56a8e7edca2fa67f3f035596), [7](https://github.com/SusuGostoso/PWEB/commit/a3aa9769a22f902d2a9cb2346382c5b8bed75eef), [8](https://github.com/SusuGostoso/PWEB/commit/0de1ad0048e1f1e4e3d0858c0bfa363365625b6a), [9](https://github.com/SusuGostoso/PWEB/commit/053c0035870f6c8f8f6c067981706f2c201fca1b), [10](https://github.com/SusuGostoso/PWEB/commit/adf0fe76353d4d7bb6f2131da817d60ca957c214)
 - [Exercicio :one:]() [:file_folder:](https://github.com/SusuGostoso/PWEB/blob/main/TAREFAS/TAREFA_9/EXERCICIO_1.html)
 
 ## Tarefa :nine: :x:
